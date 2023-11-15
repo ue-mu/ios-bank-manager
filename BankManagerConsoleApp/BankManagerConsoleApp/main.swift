@@ -7,4 +7,6 @@
 import Foundation
 import BankManager
 
-print(BankManager().text)
+private(set) var usoppBank = Bank()
+
+usoppBank.start()
